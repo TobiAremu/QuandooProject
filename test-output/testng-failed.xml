@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional TestSuite]">
+  <test name="Quandoo ProjectTest(failed)">
+    <classes>
+      <class name="testCases.SortableTest">
+        <methods>
+          <include name="tableSortTestAscending"/>
+          <include name="setUp"/>
+          <include name="quitDriver"/>
+          <include name="tableSortTestDescending"/>
+        </methods>
+      </class> <!-- testCases.SortableTest -->
+    </classes>
+  </test> <!-- Quandoo ProjectTest(failed) -->
+</suite> <!-- Failed suite [Functional TestSuite] -->

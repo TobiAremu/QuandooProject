@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional TestSuite" duration-ms="145186" started-at="2018-02-18T17:32:29Z" finished-at="2018-02-18T17:34:55Z">
+    <groups>
+    </groups>
+    <test name="Quandoo ProjectTest" duration-ms="145186" started-at="2018-02-18T17:32:29Z" finished-at="2018-02-18T17:34:55Z">
+      <class name="testCases.HoverTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HoverTestCase@402f32ff]" name="setUp" is-config="true" duration-ms="21941" started-at="2018-02-18T09:32:29Z" finished-at="2018-02-18T09:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstImageHover()[pri:0, instance:testCases.HoverTestCase@402f32ff]" name="firstImageHover" duration-ms="4245" started-at="2018-02-18T09:32:51Z" finished-at="2018-02-18T09:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstImageHover -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.HoverTestCase@402f32ff]" name="quitDriver" is-config="true" duration-ms="2158" started-at="2018-02-18T09:32:56Z" finished-at="2018-02-18T09:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.HoverTestCase -->
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="setUp" is-config="true" duration-ms="14165" started-at="2018-02-18T09:32:58Z" finished-at="2018-02-18T09:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCorrectUserNameCorrectPassWord()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="testCorrectUserNameCorrectPassWord" duration-ms="3129" started-at="2018-02-18T09:33:12Z" finished-at="2018-02-18T09:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectUserNameCorrectPassWord -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="quitDriver" is-config="true" duration-ms="2868" started-at="2018-02-18T09:33:15Z" finished-at="2018-02-18T09:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="setUp" is-config="true" duration-ms="15545" started-at="2018-02-18T09:33:18Z" finished-at="2018-02-18T09:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCorrectUserNameWrongPassWord()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="testCorrectUserNameWrongPassWord" duration-ms="4684" started-at="2018-02-18T09:33:33Z" finished-at="2018-02-18T09:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectUserNameWrongPassWord -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="quitDriver" is-config="true" duration-ms="2925" started-at="2018-02-18T09:33:38Z" finished-at="2018-02-18T09:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="setUp" is-config="true" duration-ms="19062" started-at="2018-02-18T09:33:41Z" finished-at="2018-02-18T09:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWrongUserNameCorrectPassWord()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="testWrongUserNameCorrectPassWord" duration-ms="3501" started-at="2018-02-18T09:34:00Z" finished-at="2018-02-18T09:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUserNameCorrectPassWord -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginTest@573f2bb1]" name="quitDriver" is-config="true" duration-ms="3580" started-at="2018-02-18T09:34:04Z" finished-at="2018-02-18T09:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.SortableTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="setUp" is-config="true" duration-ms="19349" started-at="2018-02-18T09:34:07Z" finished-at="2018-02-18T09:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tableSortTestAscending()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="tableSortTestAscending" duration-ms="1210" started-at="2018-02-18T09:34:27Z" finished-at="2018-02-18T09:34:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at testCases.SortableTest.tableSortTestAscending(SortableTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableSortTestAscending -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="quitDriver" is-config="true" duration-ms="6738" started-at="2018-02-18T09:34:28Z" finished-at="2018-02-18T09:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="setUp" is-config="true" duration-ms="16226" started-at="2018-02-18T09:34:35Z" finished-at="2018-02-18T09:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tableSortTestDescending()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="tableSortTestDescending" duration-ms="2039" started-at="2018-02-18T09:34:51Z" finished-at="2018-02-18T09:34:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at testCases.SortableTest.tableSortTestDescending(SortableTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableSortTestDescending -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.SortableTest@5ae9a829]" name="quitDriver" is-config="true" duration-ms="1693" started-at="2018-02-18T09:34:53Z" finished-at="2018-02-18T09:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.SortableTest -->
+    </test> <!-- Quandoo ProjectTest -->
+  </suite> <!-- Functional TestSuite -->
+</testng-results>

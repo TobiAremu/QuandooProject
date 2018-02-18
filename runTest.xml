@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional TestSuite">
+<test name= "Quandoo ProjectTest">
+	<classes>
+		<class name="testCases.HoverTestCase"/>
+		<class name="testCases.LoginTest"/>
+		<class name="testCases.SortableTest"/>
+	</classes>
+</test>
+</suite>
